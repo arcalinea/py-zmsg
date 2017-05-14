@@ -13,7 +13,7 @@ with open("README.md", "rb") as f:
     long_descr = f.read().decode("utf-8")
 
 setup(
-    name = "pyzmsg",
+    name = "py-zmsg",
     packages = ["zmsg"],
     entry_points = {
         "console_scripts": ['zmsg = zmsg.zmsg:main']
